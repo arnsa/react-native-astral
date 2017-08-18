@@ -3,6 +3,7 @@ import API from './API';
 import Button from './Button';
 import NavBar from './NavBar';
 import Loader from './Loader';
+import RouterReducer from './RouterReducer';
 
 export {
   Alert,
@@ -10,4 +11,5 @@ export {
   Button,
   NavBar,
   Loader,
+  RouterReducer,
 };
