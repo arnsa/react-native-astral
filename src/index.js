@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import TabBarIcon from './TabBarIcon';
 import Figures from './Figures';
 import Map from './Map';
+import Icon from './Icon';
 import Loader from './Loader';
 import RouterReducer from './RouterReducer';
 
@@ -16,6 +17,7 @@ export {
   TabBarIcon,
   Figures,
   Map,
+  Icon,
   Loader,
   RouterReducer,
 };
