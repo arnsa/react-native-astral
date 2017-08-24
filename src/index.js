@@ -1,5 +1,5 @@
 import Alert from './Alert';
-import API from './API';
+import Requests from './Requests';
 import Button from './Button';
 import NavBar from './NavBar';
 import TabBarIcon from './TabBarIcon';
@@ -9,10 +9,11 @@ import Icon from './Icon';
 import CollapsibleItem from './CollapsibleItem';
 import Loader from './Loader';
 import RouterReducer from './RouterReducer';
+import Helpers from './Helpers';
 
 export {
   Alert,
-  API,
+  Requests,
   Button,
   NavBar,
   TabBarIcon,
@@ -22,4 +23,5 @@ export {
   CollapsibleItem,
   Loader,
   RouterReducer,
+  Helpers,
 };
