@@ -10,6 +10,7 @@ import CollapsibleItem from './CollapsibleItem';
 import Loader from './Loader';
 import RouterReducer from './RouterReducer';
 import Helpers from './Helpers';
+import Styles from './Styles';
 
 export {
   Alert,
@@ -24,4 +25,5 @@ export {
   Loader,
   RouterReducer,
   Helpers,
+  Styles,
 };
