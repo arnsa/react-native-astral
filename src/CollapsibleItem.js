@@ -32,13 +32,13 @@ export default class CollapsibleItem extends React.Component {
   }
 
   _collapse() {
+    this.setState({ visible: false });
     Animated.timing(this.animatedHeight, { toValue: 0, duration: 200 }).start();
-    this.setState({ visible: false, arrow: 'ios-arrow-down' });
   }
 
   _expand() {
+    this.setState({ visible: true });
     Animated.timing(this.animatedHeight, { toValue: this._height, duration: 200 }).start();
-    this.setState({ visible: true, arrow: 'ios-arrow-up' });
   }
 
   _renderDefaultHeader() {
